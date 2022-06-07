@@ -21,4 +21,7 @@ workflows:
     # List of jobs that will run
     jobs:
       - say_hello
+        context:
+          - my-context
+          - another-context
       - say_goodbye
